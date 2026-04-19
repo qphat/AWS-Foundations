@@ -1,101 +1,99 @@
 ## Question 1
 
-**Which of the following AWS tools help your application scale up or down based on demand? (Choose two.)**
+**Which of the following is *not* one of the four areas of the Performance Efficiency pillar of the AWS Well-Architected Framework?**
 
-- [ ] Availability Zones  
-- [x] **Amazon EC2 Auto Scaling**  
-- [ ] AWS CloudFormation  
-- [x] **Elastic Load Balancing**  
-- [ ] AWS Config  
+* [ ] **Tradeoffs**
+* [ ] **Selection**
+* [x] **Traceability**
+* [ ] **Monitoring**
 
 
 ## Question 2
 
-**Which service would you use to send alerts based on Amazon CloudWatch alarms? (Select the best answer.)**
+**Which of the following is a principle when designing cloud-based systems?**
 
-- [x] **Amazon Simple Notification Service (Amazon SNS)**  
-- [ ] AWS CloudTrail  
-- [ ] AWS Trusted Advisor  
-- [ ] Amazon Route 53  
+* [ ] **Build tightly-coupled components**
+* [ ] **Make infrequent, large batch changes**
+* [x] **Assume everything will fail**
+* [ ] **Use as many services as possible**
+
 
 ## Question 3
 
-**Which of the following are characteristics of Amazon EC2 Auto Scaling? (Choose three.)**
+**Which of the following are pillars of the AWS Well-Architected Framework? (Choose three.)**
 
-- [ ] Only supports dynamic scaling  
-- [x] **Responds to changing conditions by adding or terminating instances**  
-- [ ] Delivers push notifications  
-- [x] **Launches instances from a specified Amazon Machine Image (AMI)**  
-- [x] **Enforces a minimum number of running Amazon EC2 instances**  
+* [x] **Security**
+* [ ] **Persistence**
+* [x] **Operational Excellence**
+* [x] **Cost Optimization**
 
 
 ## Question 4
 
-**Which of the following must be configured on an Elastic Load Balancing load balancer to expect incoming traffic? (Select the best answer.)**
+**Which design principles are recommended when considering performance efficiency? (Choose two.)**
 
-- [ ] A port  
-- [ ] A network interface  
-- [x] **A listener**  
-- [ ] An instance  
+* [ ] **Match supply with demand**
+* [x] **Democratize advanced technologies**
+* [ ] **Analyze and attribute expenditure**
+* [x] **Use serverless architectures**
+* [ ] **Enable traceability**
+
 
 ## Question 5
 
-**Which of the following elements are used to create an Amazon EC2 Auto Scaling launch configuration? (Choose three.)**
+**AWS Trusted Advisor provides insight regarding which five categories of an AWS account?**
 
-- [x] **Amazon Machine Image (AMI)**  
-- [ ] Load balancer  
-- [x] **Instance type**  
-- [ ] Virtual private cloud (VPC) and subnets  
-- [x] **Amazon Elastic Block Store (Amazon EBS) volumes**  
+* [x] **Performance, cost optimization, security, fault tolerance, service limits**
+* [ ] Security, access control, high availability, performance, service limits
+* [ ] Performance, cost optimization, access control, connectivity, security
+* [ ] Security, fault tolerance, high availability, connectivity, service limits
 
 
 ## Question 6
 
-**Which of the following services can help you collect important metrics from Amazon Relational Database Service (Amazon RDS) and Amazon Elastic Compute Cloud (Amazon EC2) instances? (Select the best answer.)**
+**What is the focus of the Sustainability pillar of the AWS Well-Architected Framework?**
 
-- [ ] Amazon CloudFront  
-- [ ] Amazon CloudSearch  
-- [x] **Amazon CloudWatch**  
-- [ ] AWS CloudTrail  
-- [ ] Amazon EC2 Auto Scaling  
+* [ ] Designing workloads that recover quickly from failures
+* [x] **Minimizing the environmental impacts of running cloud workloads**
+* [ ] Avoiding unnecessary costs in cloud workloads
+* [ ] Automating updates to cloud workloads
 
 
 ## Question 7
 
-**Which of the following are elements of an Auto Scaling group? (Choose three.)**
+**After you move to the AWS Cloud, you want to ensure that the right security settings are put in place. Which online tool can assist in security compliance?**
 
-- [x] **Minimum size**  
-- [ ] Health checks  
-- [x] **Desired capacity**  
-- [x] **Maximum size**  
+* [ ] Amazon Kinesis
+* [ ] AWS Support
+* [x] **AWS Trusted Advisor**
+* [ ] Amazon CloudWatch
+
 
 ## Question 8
 
-**There is an audit at your company and they need to have a log of all access to AWS resources in the account. Which of the following services can assist in providing these details? (Select the best answer.)**
+**Which of the following is a measure of your system's ability to provide functionality when desired by the user?**
 
-- [ ] Amazon CloudWatch  
-- [x] **AWS CloudTrail**  
-- [ ] Amazon Elastic Compute Cloud (Amazon EC2)  
-- [ ] Amazon Simple Notification Service (Amazon SNS)  
+* [ ] Availability
+* [ ] Fault Tolerance
+* [x] **Reliability**
+* [ ] Performance efficiency
 
 
 ## Question 9
 
-**In Elastic Load Balancing, when the load balancer detects an unhealthy target, which of the following are true? (Choose three.)**
+**What is defined as the ability for a system to remain operational even if some of the components of that system fail?**
 
-- [x] **Stops routing traffic to that target**  
-- [ ] Triggers an alarm  
-- [x] **Resumes routing traffic when it detects that the target is healthy again**  
-- [ ] Resumes routing traffic when manually restarted  
-- [x] **Routes traffic to a healthy target**  
+* [ ] High durability
+* [x] **Fault tolerance**
+* [ ] High availability
+* [ ] High durability
 
 
 ## Question 10
 
-**What are the three types of load balancers that Elastic Load Balancing offers?**
+**Which of the following best describes a system that can withstand some measures of degradation, experiences minimal downtime, and requires minimal human intervention?**
 
-- [x] **Application Load Balancer**  
-- [x] **Network Load Balancer**  
-- [ ] Compute Load Balancer  
-- [x] **Classic Load Balancer**  
-- [ ] Auto Scaling Load Balancer  
+* [ ] Scalable
+* [ ] Fault-tolerant
+* [ ] Elastic
+* [x] **Highly available**
